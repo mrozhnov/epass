@@ -1,0 +1,7 @@
+# ===== SafeWord Authenticator Records $Version: 100$ =====
+dn: sccAuthenticatorId=AT017904
+objectclass: sccCompatibleToken
+sccAuthenticatorId: AT017904
+sccTokenType: eToken-PASS-ES
+sccTokenData: sccKey=ab44901fff24feabbd7436d2323104f0559933e3;sccMode=E;sccPwLen=6;crypto=HmacSHA1;sccVer=6.2;
+sccSignature: MC0CFAoZSiDZNTwwQYHoBX7RnHfDtxXxAhUAiElVUKEA8DFB5CphTN31AQ/haUU=

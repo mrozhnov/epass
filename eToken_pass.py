@@ -1,10 +1,10 @@
 from tkinter import *
-import HOTP
+import OTP
+from time import sleep
 
 def callbackfunc():
-    otp = HOTP.get_hotp()
+    otp = OTP.get_otp()
     otp_value.set(otp)
-
 
 root = Tk()
 root.title("eToken Pass")

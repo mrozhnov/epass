@@ -1,0 +1,7 @@
+# ===== SafeWord Authenticator Records $Version: 100$ =====
+dn: sccAuthenticatorId=AP578224
+objectclass: sccCompatibleToken
+sccAuthenticatorId: AP578224
+sccTokenType: eToken-PASS-TS
+sccTokenData: sccKey=1080da3c61a1bb7a7cca278e2a9ef73431d8c926a4d36a0d25b69f6d88e6f997;sccMode=T;sccPwLen=6;sccTick=30;sccPrTime=2016/03/25 07:39:46;crypto=HmacSHA256;sccVer=6.2;
+sccSignature: MC4CFQDAas8WqqVxeo+twkvRxofCAaMHjQIVANczY7YWUMjeIll86rzOEd7m+zQ1

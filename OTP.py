@@ -43,7 +43,6 @@ def get_otp():
     elif sync == 'T':
         start_time = 946684800
         current_time = totimestamp(datetime.utcnow())
-        key = a2b_hex('1080da3c61a1bb7a7cca278e2a9ef73431d8c926a4d36a0d25b69f6d88e6f997')
         return TOTP(key, digits=6, window=30, clock=current_time - start_time, digestmod=sha256)
     else:
 

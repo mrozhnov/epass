@@ -1,5 +1,6 @@
 from tkinter import *
 import OTP
+import win32gui, win32con
 
 
 def callbackfunc():
@@ -9,6 +10,9 @@ def callbackfunc():
     root.clipboard_append(otp)
     root.update()
 
+
+hide = win32gui.GetForegroundWindow()
+win32gui.ShowWindow(hide , win32con.SW_HIDE)
 
 root = Tk()
 root.title("eToken Pass")

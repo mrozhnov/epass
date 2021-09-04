@@ -1,13 +1,18 @@
 from tkinter import *
 import OTP
-from time import sleep
+
 
 def callbackfunc():
     otp = OTP.get_otp()
     otp_value.set(otp)
+    root.clipboard_clear()
+    root.clipboard_append(otp)
+    root.update()
+
 
 root = Tk()
 root.title("eToken Pass")
+root.clipboard_clear()
 root.resizable(0, 0)
 
 c = Canvas(root, width=309, height=163, bg='white')
